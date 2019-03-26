@@ -3,7 +3,7 @@ var jqueryNoConflict = jQuery;
 // begin main function
 jqueryNoConflict(document).ready(function(){
 
-    initializeTabletopObject('https://docs.google.com/spreadsheets/d/1dugxTeRanxyQDXGW761MmR-PHq-PJVDHyYVws17ZXOo/pubhtml');
+    initializeTabletopObject('https://docs.google.com/spreadsheets/d/1VR6Ko3e0to1yX6ksOincSJ5AJVl9KNEjr5AJL6eK8V4/edit?usp=sharing');
 
 });
 
@@ -26,10 +26,10 @@ function createTableColumns(){
     is what happens with the More Info column header */
 
     var tableColumns =   [
-		{'mDataProp': 'employee-name', 'sTitle': 'Name', 'sClass': 'center'},
-		{'mDataProp': 'annual-salary', 'sTitle': 'Salary', 'sClass': 'center'},
-		{'mDataProp': 'division', 'sTitle': 'Division', 'sClass': 'center'},
-        {'mDataProp': 'title', 'sTitle': 'Title', 'sClass': 'center'}
+		{'mDataProp': 'first-name', 'sTitle': 'First Name', 'sClass': 'center'},
+		{'mDataProp': 'last-name', 'sTitle': 'Last Name', 'sClass': 'center'},
+		{'mDataProp': 'title', 'sTitle': 'Title', 'sClass': 'center'},
+        {'mDataProp': 'base-pay', 'sTitle': 'Base Pay', 'sClass': 'center'}
 
 	];
     return tableColumns;
