@@ -3,7 +3,7 @@ var jqueryNoConflict = jQuery;
 // begin main function
 jqueryNoConflict(document).ready(function(){
 
-    initializeTabletopObject('1VR6Ko3e0to1yX6ksOincSJ5AJVl9KNEjr5AJL6eK8V4');
+    initializeTabletopObject('1-lYZKBPoxCLYt_vbj0IF3o8ufYsDwPWXdWzQ69Mnsm8');
 
 });
 
@@ -26,10 +26,12 @@ function createTableColumns(){
     is what happens with the More Info column header */
 
     var tableColumns =   [
-		{'mDataProp': 'first-name', 'sTitle': 'First Name', 'sClass': 'center'},
-		{'mDataProp': 'last-name', 'sTitle': 'Last Name', 'sClass': 'center'},
-		{'mDataProp': 'title', 'sTitle': 'Title', 'sClass': 'center'},
-        {'mDataProp': 'base-pay', 'sTitle': 'Base Pay', 'sClass': 'center'}
+		{'mDataProp': 'Full Name', 'sTitle': 'Full Name', 'sClass': 'center'},
+		{'mDataProp': 'Job Title', 'sTitle': 'Job Title', 'sClass': 'center'},
+		{'mDataProp': 'Annual Salary', 'sTitle': 'Annual Salary', 'sClass': 'center'},
+        {'mDataProp': 'Hourly Rate', 'sTitle': 'Hourly Rate', 'sClass': 'center'},
+        {'mDataProp': 'VP Area', 'sTitle': 'VP Area', 'sClass': 'center'},
+        {'mDataProp': 'Org Major Budget Unit', 'sTitle': 'Org Major Budget Unit', 'sClass': 'center'}
 
 	];
     return tableColumns;
