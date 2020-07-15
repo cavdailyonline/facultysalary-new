@@ -27,7 +27,7 @@ function createTableColumns() {
     var tableColumns = [
         { mDataProp: "First Name", sTitle: "First Name", sClass: "center" },
         { mDataProp: "Last Name", sTitle: "Last Name", sClass: "center" },
-        { mDataProp: "Job Title", sTitle: "Job Title", sClass: "center" },
+        { mDataProp: "Title", sTitle: "Title", sClass: "center" },
         { mDataProp: "Base Pay", sTitle: "Base Pay", sClass: "center" },
     ];
     return tableColumns;
