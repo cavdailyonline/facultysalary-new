@@ -2,7 +2,9 @@ var jqueryNoConflict = jQuery;
 
 // begin main function
 jqueryNoConflict(document).ready(function () {
-    initializeTabletopObject("16nTd_Jp9ssWiFJSRuti8sb1txAwrqoHQKBMLzkQyAdM");
+    initializeTabletopObject(
+        "https://docs.google.com/spreadsheets/d/1VR6Ko3e0to1yX6ksOincSJ5AJVl9KNEjr5AJL6eK8V4/pubhtml"
+    );
 });
 
 // pull data from google spreadsheet
